@@ -1,9 +1,12 @@
-import Head from "next/head";
-import Image from "next/image";
 import { NextPage } from "next";
+import Navbar from "./components/Navbar";
 
-const Home: NextPage = () => {
-  return <div className="text-3xl">MAMA JEEEEEE</div>;
+const  Home: NextPage = () => {
+  return (
+    <div className="bg-[url('../images/dark_cover.png')] bg-no-repeat  bg-cover  h-screen">
+      <Navbar />
+    </div>
+  );
 };
 
 export default Home;

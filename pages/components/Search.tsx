@@ -6,14 +6,14 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 const Search = () => {
   return (
     <div
-      className="bg-[#5F6050] text-[#C1C2AD] rounded-[5px] placeholder-primary  w-[800px]"
-      placeholder="  search..."
+      className="flex flex-row items-center bg-[#5F6050] text-[#C1C2AD] rounded-[5px] pl-[10px] placeholder-primary  "
+     
     >
-      &nbsp;
+      {/* &nbsp; */}
       <FontAwesomeIcon icon={faMagnifyingGlass} />
-      &nbsp;&nbsp;
+     {/*  &nbsp;&nbsp; */}
       <input
-        className="bg-[#5F6050] text-[#C1C2AD] rounded-[5px] placeholder-primary"
+        className="bg-[#5F6050] text-[#C1C2AD] rounded-[5px] placeholder-primary flex-1 ml-[10px]  "
         placeholder="  search..."
       ></input>
     </div>
