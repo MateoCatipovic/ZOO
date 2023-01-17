@@ -10,8 +10,13 @@ module.exports = {
       primary: "#C1C2AD",
       secondary: "#ffed4a",
       danger: "#e3342f",
+      home: "#C4C4C4",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        averia: ["Averia Libre"],
+      },
+    },
 
     plugins: {},
   },
