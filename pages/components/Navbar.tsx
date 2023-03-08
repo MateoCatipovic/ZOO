@@ -8,18 +8,19 @@ import { useState } from "react";
 const Navbar = () => {
   const [menu_bar, setMenu_bar] = useState(false);
   return (
-    
-      <div className="flex justify-between h-[120px] px-14 py-6 bg-black">
+    <div className="fixed w-full z-10">
+      <div className="flex   justify-between h-[120px] px-14 py-6 bg-black">
         <Logo />
         <Menu />
         <div className="lg:hidden">
-        <FontAwesomeIcon
-          icon={faBars}
-          fixedWidth
-          className=" text-[78px] text-[#C1C2AD] "
-        />
+          <FontAwesomeIcon
+            icon={faBars}
+            fixedWidth
+            className=" text-[78px] text-[#C1C2AD] "
+          />
         </div>
       </div>
+    </div>
   );
 };
 

@@ -26,15 +26,17 @@ const Home: NextPage = () => {
         <div className="bg-[url('../images/dark_cover.png')] bg-no-repeat bg-center bg-cover w-full h-[1200px]">
           <Navbar />
         </div>
+
+         {/* Discover our world */}
         <div className="bg-[#A9A181] h-[1200px] text-white font-[Pacifico] flex-row text-center pt-[150px] text-[50px] border-b-[2px] border-white">
           discover our world
-          <div className="pt-[7%] flex-col justify-between px-14">
+          <div className="pt-[7%] flex flex-col md:flex-row md:justify-between px-14">
             <Image
               className="rounded-[10px] "
               src={panda}
               alt="panda_pic"
-              width={700}
-              height={700}
+              width={600}
+              height={600}
             />
             <p className="text-[30px] font-averia">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -46,19 +48,27 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
+
+         {/* Most popular animals */}
         <div className="bg-[#A9A181] h-[1200px] text-white  font-[Pacifico] text-center pt-[150px] text-[50px] px-14 pt-[150px] border-b-[2px] border-white">
           most popular animals
-          <div className="flex flex-row justify-between h-[500px] mt-[200px] font-averia">
-            <Card image={lion_card} name="lion" species="mammals" />
-            <Card image={elephant_card} name="elephant" species="mammals" />
-            <Card
-              image={eagle_card}
-              name="white-tailed eagle"
-              species="birds"
-            />
+          <div className="flex flex-col md:flex-row justify-between h-[500px] mt-[200px] font-averia">
+            <Link href="/animals">
+              <Card image={lion_card} name="lion" species="mammals" />
+            </Link>
+            <Link href="/animals">
+              <Card image={elephant_card} name="elephant" species="mammals" />
+            </Link>
+            <Link href="/animals">
+              <Card
+                image={eagle_card}
+                name="white-tailed eagle"
+                species="birds"
+              />
+            </Link>
           </div>
           <Link href="/animals">
-            <p className="text-white font-averia text-right mt-[28px] text-[25px]  drop-shadow-[4px_4px_4px_rgba(0,0,0,0.5)] rounded-[4px]">
+            <p className="text-white font-averia text-right mt-[28px] text-[25px]  drop-shadow-4l rounded-[10px]">
               ANIMALS <FontAwesomeIcon icon={faAnglesRight} />
             </p>
           </Link>

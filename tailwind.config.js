@@ -5,17 +5,42 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    placeholderColor: (theme) => theme("colors"),
+    
     placeholderColor: {
       primary: "#C1C2AD",
       secondary: "#ffed4a",
       danger: "#e3342f",
       home: "#C4C4C4",
+      
     },
+  
     extend: {
       fontFamily: {
         averia: ["Averia Libre"],
       },
+      colors: {
+        e1: "#5DACB7",
+      },
+      dropShadow:{
+        '4l': '4px 4px 4px rgba(0, 0, 0, 0.5)'
+      }
+      
+    },
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
     },
 
     plugins: {},
