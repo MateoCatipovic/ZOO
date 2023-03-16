@@ -50,7 +50,7 @@ const Home: NextPage = () => {
         </div>
 
          {/* Most popular animals */}
-        <div className="bg-[#A9A181] h-[1200px] text-white  font-[Pacifico] text-center pt-[150px] text-[50px] px-14 pt-[150px] border-b-[2px] border-white">
+        <div className="bg-[#A9A181] h-[1200px] text-white  font-[Pacifico] text-center  text-[50px] px-14 pt-[150px] border-b-[2px] border-white">
           most popular animals
           <div className="flex flex-col md:flex-row justify-between h-[500px] mt-[200px] font-averia">
             <Link href="/animals">
