@@ -22,7 +22,7 @@ var Home = function () {
                 "discover our world",
                 React.createElement("div", { className: "pt-[7%] flex flex-col md:flex-row md:justify-between px-14" },
                     React.createElement(image_1["default"], { className: "rounded-[10px] ", src: panda_png_1["default"], alt: "panda_pic", width: 600, height: 600 }),
-                    React.createElement("p", { className: "text-[30px] font-averia" }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))),
+                    React.createElement("p", { className: "text-[30px] font-averia ml-12" }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."))),
             React.createElement("div", { className: "bg-[#A9A181] h-[1200px] text-white  font-[Pacifico] text-center  text-[50px] px-14 pt-[150px] border-b-[2px] border-white" },
                 "most popular animals",
                 React.createElement("div", { className: "flex flex-col md:flex-row justify-between h-[500px] mt-[200px] font-averia" },

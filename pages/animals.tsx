@@ -45,7 +45,7 @@ const animals: NextPage = () => {
         <div className="bg-[#A9A181]  text-white  font-[Pacifico] text-center pt-[150px] text-[50px] px-14  pb-[80px] ">
           mammals
           <div className="flex flex-col md:flex-row justify-between h-[500px] mt-[60px] font-averia">
-            <Link href="/animals">
+            <Link href="/lion">
               <Animal_card image={lion} name="lion" color="mammals_color" />
             </Link>
             <Link href="/animals">

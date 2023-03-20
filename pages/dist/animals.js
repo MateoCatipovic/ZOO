@@ -37,7 +37,7 @@ var animals = function () {
             react_1["default"].createElement("div", { className: "bg-[#A9A181]  text-white  font-[Pacifico] text-center pt-[150px] text-[50px] px-14  pb-[80px] " },
                 "mammals",
                 react_1["default"].createElement("div", { className: "flex flex-col md:flex-row justify-between h-[500px] mt-[60px] font-averia" },
-                    react_1["default"].createElement(link_1["default"], { href: "/animals" },
+                    react_1["default"].createElement(link_1["default"], { href: "/lion" },
                         react_1["default"].createElement(Animals_card_1["default"], { image: lion_card_jpeg_1["default"], name: "lion", color: "mammals_color" })),
                     react_1["default"].createElement(link_1["default"], { href: "/animals" },
                         react_1["default"].createElement(Animals_card_1["default"], { image: elephant_card_jpeg_1["default"], name: "elephant", color: "mammals_color" })),
