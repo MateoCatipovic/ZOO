@@ -21,7 +21,8 @@ module.exports = {
         e1: "#5DACB7"
       },
       dropShadow: {
-        "4l": "4px 4px 4px rgba(0, 0, 0, 0.5)"
+        "4l": "4px 4px 4px rgba(0, 0, 0, 0.5)",
+        "5l": "0px 6px 6px rgba(0, 0, 0, 0.75)"
       }
     },
     screens: {
