@@ -10,9 +10,9 @@ const Menu = () => {
     >
       <Search />
       <div className="flex justify-between text-[#C1C2AD]">
-        <a href=".">home</a>
+        <a href="/">home</a>
         <a href="/plan_your_visit">plan your visit</a>
-        <a href="/animals/">animals</a>
+        <a href="/animals">animals</a>
         <a href="/blog">blog</a>
         <a href="/about_us">about us</a>
         <a href="/login">login</a>
