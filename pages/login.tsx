@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import { NextPage } from "next";
 
-const login = () => {
+const login: NextPage = () =>{
   return (
-    <div>
-      <Navbar />
-      login
-    </div>
+    <>
+      <div className=" bg-[url('../images/login-bg.jpg')]  bg-no-repeat bg-center bg-cover w-full h-[2000px]  ">
+        <Navbar />
+      </div>
+    </>
   );
 };
 
