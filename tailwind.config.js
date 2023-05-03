@@ -10,11 +10,21 @@ module.exports = {
       secondary: "#ffed4a",
       danger: "#e3342f",
       home: "#C4C4C4",
+      black: "black", 
+    },
+
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '50%': '50%',
+      '16': '4rem',
     },
 
     extend: {
       fontFamily: {
         averia: ["Averia Libre"],
+        montserrat: ["Montserrat"],
       },
       colors: {
         mammals_color: "#978853",
@@ -26,7 +36,6 @@ module.exports = {
       dropShadow: {
         "4l": "4px 4px 4px rgba(0, 0, 0, 0.5)",
         "5l": "0px 6px 6px rgba(0, 0, 0, 0.75)",
-
       },
     },
     screens: {
